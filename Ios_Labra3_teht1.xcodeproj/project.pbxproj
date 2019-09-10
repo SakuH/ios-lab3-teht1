@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		086367132327DEB400505A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086367122327DEB400505A04 /* AppDelegate.swift */; };
-		086367152327DEB400505A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086367142327DEB400505A04 /* ViewController.swift */; };
 		086367182327DEB400505A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086367162327DEB400505A04 /* Main.storyboard */; };
 		0863671A2327DEC300505A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086367192327DEC300505A04 /* Assets.xcassets */; };
 		0863671D2327DEC300505A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0863671B2327DEC300505A04 /* LaunchScreen.storyboard */; };
+		086367252327E08200505A04 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086367242327E08200505A04 /* TasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0863670F2327DEB400505A04 /* Ios_Labra3_teht1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ios_Labra3_teht1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		086367122327DEB400505A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		086367142327DEB400505A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		086367172327DEB400505A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086367192327DEC300505A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0863671C2327DEC300505A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0863671E2327DEC300505A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086367242327E08200505A04 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				086367122327DEB400505A04 /* AppDelegate.swift */,
-				086367142327DEB400505A04 /* ViewController.swift */,
 				086367162327DEB400505A04 /* Main.storyboard */,
 				086367192327DEC300505A04 /* Assets.xcassets */,
 				0863671B2327DEC300505A04 /* LaunchScreen.storyboard */,
 				0863671E2327DEC300505A04 /* Info.plist */,
+				086367242327E08200505A04 /* TasksTableViewController.swift */,
 			);
 			path = Ios_Labra3_teht1;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086367152327DEB400505A04 /* ViewController.swift in Sources */,
+				086367252327E08200505A04 /* TasksTableViewController.swift in Sources */,
 				086367132327DEB400505A04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
